@@ -16,5 +16,37 @@
 
 ## Repositório Local
 
+- Criação de novo repositório
+  - `git init`
+- Verificar status dos arquivos ou diretório
+  - `git status`
+- Adicionar todos os arquivos do diretório
+  - `git add .`
+- Adicionar um determinado diretório
+  - `git add Nome do diretorio.md`
+- Adicionar um determinado arquivo específico
+  - `git add Nome-do-arquivo.md`
 
+- Caso o arquivo esteja listado no .gitignore e deseja adicionar
+  - `git add -f nome-do-arquivo-gitignore.txt`
+
+## Comitar Arquivos ou Diretório
+
+- Comitar um determinado arquivo
+
+  - `git commit arquivo.txt`
+
+- Comitar informando uma determinada mensagem
+
+  - `git commit arquivo.txt -m "Escreva a mensagem"`
+
+- Comitar vários arquivos
+
+  - `git commit arquivo-1.txt arquivo-2.txt`
+
+- Comitar tudo incluindo mensagem
+
+  - `git commit -m "Insira a mensagem"`
+
+  
 
